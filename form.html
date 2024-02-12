@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+
+    <body>
+        
+<form action="thanks.html">
+    <label for="name">Name:</label>
+    <input id="name" type="text"><br>
+    <label for="pass">Password:</label>
+    <input id="pass" type="password"><br>
+    <label for="add ">Address:</label>
+    <input id="add" type="text"><br>
+    <label for="gender">Gender:</label>
+    <input id="gender" name="gender" type="radio">Male
+    <input id="gender"name="gender" type="radio">Female
+    <input id="gender" name="gender" type="radio">other
+    <br>
+    <label for="hob">Hobbies:</label>
+    <input type="checkbox">Cricket
+    <input type="checkbox">Kho-kho
+    <input type="checkbox">In door Games
+    <input type="checkbox">out door games
+    <br>
+    <input type="file">
+    <br>
+    <label for="">City:</label>
+    <select name="" id="">
+        <option value="0">Select city</option>
+        <optgroup label="under 50km">
+        <option value="Nagpur">Nagpur</option>
+        <option value="Wardha">Wardha</option>
+    </optgroup>
+    <optgroup label="Above 50km">
+        <option value=""> Mumbai</option>
+    </optgroup>
+    </select>
+    <br>
+    <input type="submit" value="Click me">
+</form>
+
+
+    </body>
+</html>
